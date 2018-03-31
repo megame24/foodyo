@@ -1,0 +1,19 @@
+{
+  "name": "foodyo",
+  "version": "1.0.0",
+  "description": "An app for foodies",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/megame24/foodyo.git"
+  },
+  "author": "Innocent Ngene",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/megame24/foodyo/issues"
+  },
+  "homepage": "https://github.com/megame24/foodyo#readme"
+}
