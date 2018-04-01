@@ -18,6 +18,8 @@ app.use(webpackMiddleware(compiler, {
 }));
 app.use(webpackHotMiddleware(compiler));
 
+app.use('/styles', express.static(path.join(__dirname, '../client/styles')));
+
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '../index.html'));
 });
